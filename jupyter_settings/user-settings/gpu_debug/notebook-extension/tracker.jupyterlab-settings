@@ -1,0 +1,39 @@
+{
+    // Notebook
+    // @jupyterlab/notebook-extension:tracker
+    // Notebook settings.
+    // **************************************
+
+    // Code Cell Configuration
+    // The configuration for all code cells.
+    "codeCellConfig": {
+        "lineNumbers": true,
+        "lineWrap": "on"        
+    },
+
+    // Default cell type
+    // The default type (markdown, code, or raw) for new cells
+    "defaultCell": "code",
+
+    // Shut down kernel
+    // Whether to shut down or not the kernel when closing a notebook.
+    "kernelShutdown": false,
+
+    // Markdown Cell Configuration
+    // The configuration for all markdown cells.
+    "markdownCellConfig": {
+        "lineNumbers": true,
+        "lineWrap": "on"
+    },
+
+    // Raw Cell Configuration
+    // The configuration for all raw cells.
+    "rawCellConfig": {
+        "lineNumbers": true,
+        "lineWrap": "on"
+    },
+
+    // Scroll past last cell
+    // Whether to be able to scroll so the last cell is at the top of the panel
+    "scrollPastEnd": true
+}
