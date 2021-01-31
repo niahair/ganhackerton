@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.csv
+core.*
+.ipynb_checkpoints
+node_modules
+*.swp
+*.whl
+*.gz
+*.tar
+notebooks/**.pth
+notebooks/KbeautyBaseline/**
