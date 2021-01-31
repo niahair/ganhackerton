@@ -1,0 +1,15 @@
+{
+  "MarkdownCell": {
+    "cm_config": {
+      "lineWrapping": false,
+      "lineNumbers": true
+    }
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true,
+      "lineNumbers": true
+    }
+  }
+}
+
