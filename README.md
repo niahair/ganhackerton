@@ -70,7 +70,9 @@ submmit은 다음과 같이 이루어집니다.
 <td>4등</td><td>2명</td><td>50,000</td>
 </tr>
 </table>
+</font>
 
+<h3>리더보드</h3>
 <table>
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
