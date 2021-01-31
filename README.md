@@ -1,5 +1,5 @@
 <pre>
-<h3>헤어스타일 변환 경진대회</h3>
+<b><h3>헤어스타일 변환 경진대회</h3></b>
 Hairstyle Translation AI Competetion
 - 사람의 사진에서 머리카락 영역을 다른 헤어스타일로 변환 -
 
@@ -21,7 +21,7 @@ Generative AI를 이용하여 FID스코어를 최소로 낮추는 것이 해당 
 
 
 
-<h3>baseline model과 dataset에 대한 설명</h3>
+<b><h3>baseline model과 dataset에 대한 설명</h3></b>
 ...갑자기 이런 task를 수행하기 어려울 수 있기 때문에 baseline model과 tutorial 을 준비했습니다.
 baseline model은 다음의 github를 참고해 주세요
 <a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>
@@ -40,8 +40,21 @@ baseline model은 다음의 github를 참고해 주세요
 
 본 대회에서는 pretrained 혹은 baseline에 fine tuning 모두 허용됩니다. 부디 자유롭게 즐겨주세요!
 
+<b><h3>튜토리얼의 사양에 대한 설명</h3></b>
+튜토리얼은 ubuntu 18.04에서 실행해보았으나 dockerize되어있어 사양을 크게 타지 않습니다.
+실행을 위해서는 다음의 프로그램이 필요합니다.
+nvidia-docker2 runtime 으로 동작하므로 cuda-driver는 최신의 아무거나 깔면 적절합니다. (nvidia-docker2가 돌아갈 수 있는 정도의 버젼이긴 해야합니다.)
 
-<h3>submmit 방식과 평가 metric에 대한 안내</h3>
+docker
+nvidia-docker2
+git
+cuda-drivers
+
+또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.
+
+
+
+<b><h3>submmit 방식과 평가 metric에 대한 안내</h3></b>
 <font color=red>
 submmit은 다음과 같이 이루어집니다.
 1) 지정된 dataset의 입력 그림파일과 style 그림파일에 대해 inference한 결과물을 올려 주세요
@@ -56,7 +69,7 @@ submmit은 다음과 같이 이루어집니다.
 반드시 model 의 가중치와 sourcecode 를 함께 전송해주세요.
 </font>
 
-<h3>일정과 기간, 시상</h3>
+<b><h3>일정과 기간, 시상</h3></b>
 <font color=red>
 <h4> ※주의 : 이 부분은 미정이며 대회 시작전에 fix됩니다. 숫자들은 전부 임의로 넣은 것입니다.</h4>
 
@@ -82,7 +95,7 @@ submmit은 다음과 같이 이루어집니다.
 </table>
 </font>
 
-<h3>리더보드</h3>
+<b><h3>리더보드</h3></b>
 <table>
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
