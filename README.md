@@ -83,7 +83,7 @@ submmit은 다음과 같이 이루어집니다.
 
 <table>
 <tr>
-<td>순위</td><td>금액</td>
+<td>순위</td><td>인원</td><td>금액</td>
 </tr><tr>
 <td>1등</td><td>1명</td><td>1,000,000</td>
 </tr><tr>
