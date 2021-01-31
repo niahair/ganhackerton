@@ -51,6 +51,7 @@ git
 cuda-drivers
 
 또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.
+추가로 튜토리얼에 사용되는 yuryueng/hbaseline docker image가 약 8Gbytes의 저장공간을 차지합니다.
 
 
 
