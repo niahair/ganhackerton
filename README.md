@@ -1,5 +1,6 @@
 ## 헤어스타일 변환 경진대회 (Hairstyle Translation AI Competetion)
-### 사람의 사진에서 머리카락 영역을 다른 헤어스타일로 변환
+
+### 1. 사람의 사진에서 머리카락 영역을 다른 헤어스타일로 변환
 
 헤어스타일 변환 경진대회에 오신 것을 환영합니다!
 마음에 드는 머리스타일을 발견했을 때, 사진을 오려붙이거나 포토샵으로 붙여 본 적이 있습니까? 설령 그렇다고 해도 진짜로 내 머리로 만들어보지 않는 이상은 공주인지 거지인지 알 수 없습니다.
@@ -17,9 +18,7 @@ Generative AI를 이용하여 FID스코어를 최소로 낮추는 것이 해당 
 5번처럼 리스크가 높은 여신컬과 염색을 미리 시도해볼 수 있지요
 반대로 6번처럼 현재 머리를 스트레이트하면 어떤느낌이 될 지 알 수 있는 식입니다.
 
-
-
-### Baseline model과 Dataset
+### 2. Baseline model과 dataset
 ...갑자기 이런 task를 수행하기 어려울 수 있기 때문에 baseline model과 tutorial 을 준비했습니다.
 baseline model은 다음의 github를 참고해 주세요
 <a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>
@@ -38,7 +37,7 @@ baseline model은 다음의 github를 참고해 주세요
 
 본 대회에서는 pretrained 혹은 baseline에 fine tuning 모두 허용됩니다. 부디 자유롭게 즐겨주세요!
 
-### 튜토리얼의 사양
+### 3. 튜토리얼의 사양
 튜토리얼은 ubuntu 18.04에서 실행해보았으나 dockerize되어있어 사양을 크게 타지 않습니다.
 실행을 위해서는 다음의 프로그램이 필요합니다.
 nvidia-docker2 runtime 으로 동작하므로 cuda-driver는 최신의 아무거나 깔면 적절합니다. (nvidia-docker2가 돌아갈 수 있는 정도의 버젼이긴 해야합니다.)
@@ -51,23 +50,21 @@ cuda-drivers
 또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.
 추가로 튜토리얼에 사용되는 yuryueng/hbaseline docker image가 약 8Gbytes의 저장공간을 차지합니다.
 
-
-
-### Submission 방식과 평가 metric
+### 4. Submission 방식과 평가 metric
 * Submission 방식
-1. 지정된 dataset의 입력 그림파일과 style 그림파일에 대해 inference한 결과물을 올려 주세요
+> 1) 지정된 dataset의 입력 그림파일과 style 그림파일에 대해 inference한 결과물을 올려 주세요
 블라블라
-2. 파일 이름은 다음과 같이 지정되어야 합니다.
+> 2) 파일 이름은 다음과 같이 지정되어야 합니다.
 블라블라
-3. FID Score는 매일 자정에 측정하여 이 github 대문에 업데이트 하게 됩니다.
+> 3) FID Score는 매일 자정에 측정하여 이 github 대문에 업데이트 하게 됩니다.
 
-제출은 email 형태로 받게 됩니다. (제출처 : niahairdata@gmail.com)
+> 제출은 email 형태로 받게 됩니다. (제출처 : niahairdata@gmail.com)
 반드시 model 의 가중치와 sourcecode 를 함께 전송해주세요.
 
 * 평가 metric
-1. FID score 설명 추가
+> 1) FID score 설명 추가
 
-### 일정과 기간
+### 5. 일정과 기간
 대회 일정은 2021.02.02 10시 부터 시작 합니다. 이시간 이후 메일 접수를 집계에 반영 합니다.
 제출 마감은 2021.02.14 23시 59분 까지 입니다.
 리더보드 업데이트 시각은 다음과 같습니다.
@@ -88,7 +85,7 @@ cuda-drivers
 
 그 전에도 dataset이 baseline model을 살펴보는 것은 자유롭습니다.
 
-### 시상
+### 6. 시상
 총 상금은 다음과 같습니다.
 
 <table>
@@ -105,7 +102,7 @@ cuda-drivers
 </table>
 </font>
 
-### Leaderboard
+### 7. Leaderboard
 <table>
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
@@ -115,6 +112,6 @@ cuda-drivers
 </table>
 </pre>
 
-### 문의사항
+### 8. 문의사항
 카카오톡 채널
 https://open.kakao.com/o/sDIPrGUc
