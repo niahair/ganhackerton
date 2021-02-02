@@ -27,7 +27,7 @@ baseline model은 다음의 github를 참고해 주세요
 해당 모델의 FID score는 <font color=red>XX점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
   
 해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github의 내부 링크에 공개되어 있습니다.  
-<a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 <b>25만장의 이미지와 레이블<b>이 있습니다. 이 데이터셋으로 대회를 치르게 됩니다.
+<a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 <b>25만장의 이미지와 레이블</b>이 있습니다. 이 데이터셋으로 대회를 치르게 됩니다.
 
 <b>데이터에 대한 설명</b>은 다음 경로를 참고해 주세요  
 <a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb</a>  
