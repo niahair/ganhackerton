@@ -54,7 +54,7 @@ nvidia-driver
 
 1. 그래픽카드 드라이버 설치  
 ```shell
-#update apk
+#update apt
 $ sudo su
 $ apt update && apt upgrade --fix-missing -y
 ##nvidia 그래픽카드 버젼확인 : tesla k80 같은게 나온다
