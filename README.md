@@ -2,14 +2,14 @@
 
 ### 1. 사람의 사진에서 머리카락 영역을 다른 헤어스타일로 변환
 
-헤어스타일 변환 경진대회에 오신 것을 환영합니다!
-마음에 드는 머리스타일을 발견했을 때, 사진을 오려붙이거나 포토샵으로 붙여 본 적이 있습니까? 설령 그렇다고 해도 진짜로 내 머리로 만들어보지 않는 이상은 공주인지 거지인지 알 수 없습니다.
-오직 6개월 이상을 후회할지도 모르는 리스크를 안고 직접 한 뒤 거울을 보는 수 밖에 없습니다.
+헤어스타일 변환 경진대회에 오신 것을 환영합니다!  
+마음에 드는 머리스타일을 발견했을 때, 사진을 오려붙이거나 포토샵으로 붙여 본 적이 있습니까? 설령 그렇다고 해도 진짜로 내 머리로 만들어보지 않는 이상은 공주인지 거지인지 알 수 없습니다.  
+오직 6개월 이상을 후회할지도 모르는 리스크를 안고 헤어스타일을 시술한 뒤 거울을 보는 수 밖에 없습니다.  
 
-이 기술은 사람들의 6개월짜리 리스크를 10초로 줄여주기 위해 고안되었습니다.
-Generative AI를 이용하여 FID스코어를 최소로 낮추는 것이 해당 대회의 목표입니다.
+이 기술은 사람들의 6개월짜리 리스크를 10초로 줄여주기 위해 고안되었습니다.   
+Generative AI를 이용하여 FID스코어를 최소로 낮추는 것이 해당 대회의 목표입니다.   
 
-다음과 같은 결과물이 나오게 됩니다.
+다음과 같은 결과물이 나오게 됩니다.  
 <img src="https://user-images.githubusercontent.com/77392344/106399821-650d3580-645e-11eb-9a7e-70288c7c02d4.jpg">
 예를 들면
 1번은 얼굴형이 다른 사람의 헤어스타일을 자신에게 적용해볼 수 있겠죠?
@@ -19,36 +19,36 @@ Generative AI를 이용하여 FID스코어를 최소로 낮추는 것이 해당 
 반대로 6번처럼 현재 머리를 스트레이트하면 어떤느낌이 될 지 알 수 있는 식입니다.
 
 ### 2. Baseline model과 dataset
-...갑자기 이런 task를 수행하기 어려울 수 있기 때문에 baseline model과 tutorial 을 준비했습니다.
-baseline model은 다음의 github를 참고해 주세요
-<a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>
-
-자세한 정보는 해당 모델의 github 페이지에 있으나, 대략 tesla v100 1대 환경에서 3일정도 baseline model을 훈련시켰으니 도움이 많이 될 것이라 생각됩니다.
-해당 모델의 FID score는 <font color=red>XX점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.
-
-해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github에 공개되어 있습니다.
+...갑자기 이런 task를 수행하기 어려울 수 있기 때문에 baseline model과 tutorial 을 준비했습니다.  
+baseline model은 다음의 github를 참고해 주세요  
+<a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>  
+  
+자세한 정보는 해당 모델의 github 페이지에 있으나, 대략 tesla v100 1대 환경에서 3일정도 baseline model을 훈련시켰으니 도움이 많이 될 것이라 생각됩니다.  
+해당 모델의 FID score는 <font color=red>XX점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
+  
+해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github에 공개되어 있습니다.  
 <a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 25만장의 이미지와 레이블이 있습니다.
 
-데이터에 대한 설명은 다음 경로를 참고해 주세요
-<a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb</a>
+데이터에 대한 설명은 다음 경로를 참고해 주세요  
+<a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb</a>  
 
-해당 모델을 이용해 inference하는 과정은 모델의 공식 github에도 있지만, 대회를 위해 좀 더 쉽게 써놓은 코드가 다음 링크에 있습니다.
+해당 모델을 이용해 inference하는 과정은 모델의 공식 github에도 있지만, 대회를 위해 좀 더 쉽게 써놓은 코드(튜토리얼)가 다음 링크에 있습니다.  
 <a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb</a>
 
-본 대회에서는 pretrained 혹은 baseline에 fine tuning 모두 허용됩니다. 부디 자유롭게 즐겨주세요!
+본 대회에서는 pretrained 혹은 baseline에 fine tuning 모두 허용됩니다. 부디 자유롭게 즐겨주세요!  
 
 ### 3. 튜토리얼의 사양
-튜토리얼은 ubuntu 18.04에서 실행해보았으나 dockerize되어있어 사양을 크게 타지 않습니다.
-실행을 위해서는 다음의 프로그램이 필요합니다.
-nvidia-docker2 runtime 으로 동작하므로 cuda-driver는 최신의 아무거나 깔면 적절합니다. (nvidia-docker2가 돌아갈 수 있는 정도의 버젼이긴 해야합니다.)
+<a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb">튜토리얼</a>은 ubuntu 18.04에서 실행해보았으나 dockerize되어있어 사양을 크게 타지 않습니다.  
+실행을 위해서는 다음의 프로그램이 필요합니다.  
+nvidia-docker2 runtime 으로 동작하므로 cuda-driver는 최신의 아무거나 깔면 적절합니다. (nvidia-docker2가 돌아갈 수 있는 정도의 버젼이긴 해야합니다.)  
+  
+docker  
+nvidia-docker2  
+git  
+nvidia-driver    
 
-docker
-nvidia-docker2
-git
-cuda-drivers
-
-또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.
-추가로 튜토리얼에 사용되는 yuryueng/hbaseline docker image가 약 8Gbytes의 저장공간을 차지합니다.
+또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.  
+추가로 튜토리얼에 사용되는 yuryueng/hbaseline docker image가 약 8Gbytes의 저장공간을 차지합니다.  
 
 ### 4. Submission 방식과 평가 metric
 > #### Submission 방식
@@ -63,23 +63,8 @@ cuda-drivers
 > * 지정된 pair로 생성된 2,000 장의 이미지들과 지정된 실제 이미지 2,000 간의 FID score를 측정한다. 이때, 여성 헤어스타일로 변환한 1,000장의 이미지는 실제 여성 이미지 1,000장과 비교하고, 남성 헤어스타일로 변환한 1,000장의 이미지는 실제 남성 이미지 1,000장과 비교한다. 여성 헤어스타일에 대한 FID score와 남성 헤어 스타일에 대한 FID score를 평균낸 값을 최종 FID score로 간주한다.
 
 ### 5. 일정과 기간
-대회 일정은 2021.02.02 10시 부터 시작 합니다. 이시간 이후 메일 접수를 집계에 반영 합니다.
-제출 마감은 2021.02.14 23시 59분 까지 입니다.
-리더보드 업데이트 시각은 다음과 같습니다.
-
-<table>
-<tr>
-<td>일자</td><td>시간</td>
-</tr><tr>
-<td>2월 6일</td><td>0시</td>
- </tr><tr>
-<td>2월 8일</td><td>0시</td>
-</tr><tr>
-<td>2월 9일</td><td>0시</td>
-</tr><tr>
-<td>2월 15일</td><td>0시</td>
-</tr>
-</table>
+대회 일정은 2021.02.02 10시 부터 시작 합니다. 이시간 이후 메일 접수를 집계에 반영 합니다.  
+제출 마감은 2021.02.14 23시 59분 까지 입니다.  
 
 그 전에도 dataset이나 baseline model을 살펴보는 것은 자유롭습니다.
 
@@ -100,6 +85,23 @@ cuda-drivers
 </font>
 
 ### 7. Leaderboard
+리더보드 업데이트 시각은 다음과 같습니다.  
+
+<table>
+<tr>
+<td>일자</td><td>시간</td>
+</tr><tr>
+<td>2월 6일</td><td>0시</td>
+</tr><tr>
+<td>2월 8일</td><td>0시</td>
+</tr><tr>
+<td>2월 9일</td><td>0시</td>
+</tr><tr>
+<td>2월 15일</td><td>0시</td>
+</tr>
+</table>
+
+
 <table>
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
