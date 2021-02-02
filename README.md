@@ -50,6 +50,23 @@ nvidia-driver
 또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 <b>12Gbytes의 저장공간</b>을 차지합니다.  
 추가로 튜토리얼에 사용되는 <a href="https://hub.docker.com/r/yuryueng/hbaseline">yuryueng/hbaseline docker image</a>가 약 <b>8Gbytes</b>의 저장공간을 차지합니다.  
 
+다음과 같이 진행하시면 튜토리얼을 진행할 수 있습니다.
+```shell
+$ #배쉬셀 기준
+$ sudo su
+$ git clone https://github.com/niahair/ganhackerton.git
+$ cd ganhackerton
+$ bash run.sh
+```
+이후 크롬에서 해당 컴퓨터의 8888포트로 접속하면 jupyter notebook이 열립니다.
+(ex : http://127.0.0.1:8888 )  
+노트북의 main.ipynb는 튜토리얼입니다.  
+dataset_describe는 데이터 열어보는 부분입니다.  
+노트북에서 shell을 열어 접속하시면 폴더구조는 다음과 같습니다.  
+/main : 이 git이 clone된 폴더  
+/main/dataset/ : 데이터셋이 있는 폴더  
+/main/notebooks/ : 노트북들 (/tf/notebooks와 동일한 폴더)  
+
 ### 4. Submission 방식과 평가 metric
 > #### Submission 방식
 > * 지정된 입력 이미지 2,000 장의 헤어스타일을 각 입력 이미지와 짝지어진 타겟 이미지의 헤어스타일로 변환한 이미지 2,000 장을 생성해주세요. 이때, 주어진 2,000 개의 pair를 모두 사용해야 하며, 각 pair는 한 번씩만 사용합니다.
