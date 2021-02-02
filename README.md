@@ -72,6 +72,7 @@ cuda-drivers
 <td>일자</td><td>시간</td>
 </tr><tr>
 <td>2월 6일</td><td>0시</td>
+ </tr><tr>
 <td>2월 8일</td><td>0시</td>
 </tr><tr>
 <td>2월 9일</td><td>0시</td>
