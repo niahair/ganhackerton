@@ -24,7 +24,7 @@ baseline model은 다음의 github를 참고해 주세요
 <a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>  
   
 자세한 정보는 해당 모델의 github 페이지에 있으나, 대략 tesla v100 1대 환경에서 3일정도 baseline model을 훈련시켰으니 도움이 많이 될 것이라 생각됩니다.  
-해당 모델의 FID score는 <font color=red>XX점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
+해당 모델의 FID score는 <font color=red>17.24점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
   
 해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github의 내부 링크에 공개되어 있습니다.  
 <a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 <b>25만장의 이미지와 레이블</b>이 있습니다. 이 데이터셋으로 대회를 치르게 됩니다.
@@ -152,7 +152,8 @@ dataset_describe는 데이터 열어보는 부분입니다.
 > * 반드시 model 의 가중치와 sourcecode 를 함께 전송해주세요.
 
 > #### 평가 metric: FID score
-> * 지정된 pair로 생성된 2,000 장의 이미지들과 지정된 실제 이미지 2,000 간의 FID score를 측정한다. 이때, 여성 헤어스타일로 변환한 1,000장의 이미지는 실제 여성 이미지 1,000장과 비교하고, 남성 헤어스타일로 변환한 1,000장의 이미지는 실제 남성 이미지 1,000장과 비교한다. 여성 헤어스타일에 대한 FID score와 남성 헤어 스타일에 대한 FID score를 평균낸 값을 최종 FID score로 간주한다.
+> * 지정된 pair로 생성된 2,000 장의 이미지들과 지정된 실제 이미지 2,000 간의 FID score를 측정합니다. 이때, 여성 헤어스타일로 변환한 1,000장의 이미지는 실제 여성 이미지 1,000장과 비교하고, 남성 헤어스타일로 변환한 1,000장의 이미지는 실제 남성 이미지 1,000장과 비교합니다.
+> * 여성 헤어스타일에 대한 FID score와 남성 헤어 스타일에 대한 FID score를 평균낸 값을 최종 FID score로 간주합니다.
 
 ### 5. 일정과 기간
 대회 일정은 2021.02.02 10시 부터 시작 합니다. 이시간 이후 메일 접수를 집계에 반영 합니다.  
@@ -198,7 +199,7 @@ dataset_describe는 데이터 열어보는 부분입니다.
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr><tr>
-<td>1</td><td>XX</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 높은게 좋겠죠!</td>
+<td>1</td><td>17.24</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 높은게 좋겠죠!</td>
 </tr>
 </table>
 </pre>
