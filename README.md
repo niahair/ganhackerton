@@ -26,13 +26,13 @@ baseline model은 다음의 github를 참고해 주세요
 자세한 정보는 해당 모델의 github 페이지에 있으나, 대략 tesla v100 1대 환경에서 3일정도 baseline model을 훈련시켰으니 도움이 많이 될 것이라 생각됩니다.  
 해당 모델의 FID score는 <font color=red>XX점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
   
-해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github에 공개되어 있습니다.  
-<a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 25만장의 이미지와 레이블이 있습니다.
+해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github의 내부 링크에 공개되어 있습니다.  
+<a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 <b>25만장의 이미지와 레이블<b>이 있습니다. 이 데이터셋으로 대회를 치르게 됩니다.
 
-데이터에 대한 설명은 다음 경로를 참고해 주세요  
+<b>데이터에 대한 설명</b>은 다음 경로를 참고해 주세요  
 <a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/dataset_describe.ipynb</a>  
 
-해당 모델을 이용해 inference하는 과정은 모델의 공식 github에도 있지만, 대회를 위해 좀 더 쉽게 써놓은 코드(튜토리얼)가 다음 링크에 있습니다.  
+해당 모델을 이용해 inference하는 과정은 모델의 공식 github에도 있지만, 대회를 위해 좀 더 쉽게 써놓은 <b>코드(튜토리얼)가 다음 링크에 있습니다.</b>  
 <a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb">https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb</a>
 
 본 대회에서는 pretrained 혹은 baseline에 fine tuning 모두 허용됩니다. 부디 자유롭게 즐겨주세요!  
@@ -47,8 +47,8 @@ nvidia-docker2
 git  
 nvidia-driver    
 
-또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 12Gbytes의 저장공간을 차지합니다.  
-추가로 튜토리얼에 사용되는 yuryueng/hbaseline docker image가 약 8Gbytes의 저장공간을 차지합니다.  
+또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 <b>12Gbytes의 저장공간</b>을 차지합니다.  
+추가로 튜토리얼에 사용되는 <a href="https://hub.docker.com/r/yuryueng/hbaseline">yuryueng/hbaseline docker image</a>가 약 <b>8Gbytes</b>의 저장공간을 차지합니다.  
 
 ### 4. Submission 방식과 평가 metric
 > #### Submission 방식
