@@ -199,7 +199,7 @@ dataset_describe는 데이터 열어보는 부분입니다.
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr><tr>
-<td>1</td><td>17.24</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 높은게 좋겠죠!</td>
+<td>1</td><td>17.24</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
 </tr>
 </table>
 </pre>
