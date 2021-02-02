@@ -78,8 +78,7 @@ cuda-drivers
 <td>2월 9일</td><td>0시</td>
 </tr><tr>
 <td>2월 15일</td><td>0시</td>
-</tr><tr>
-</tr></td>
+</tr>
 </table>
 
 그 전에도 dataset이 baseline model을 살펴보는 것은 자유롭습니다.
@@ -96,8 +95,7 @@ cuda-drivers
 <td>2등~11등 </td><td>10명</td><td> 500,000</td>
 </tr><tr>
 <td>12등~21등</td><td>10명</td><td>100,000</td>
-</tr><tr>
-</tr></td>
+</tr>
 </table>
 </font>
 
