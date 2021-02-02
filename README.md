@@ -50,7 +50,81 @@ nvidia-driver
 또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 <b>12Gbytes의 저장공간</b>을 차지합니다.  
 추가로 튜토리얼에 사용되는 <a href="https://hub.docker.com/r/yuryueng/hbaseline">yuryueng/hbaseline docker image</a>가 약 <b>8Gbytes</b>의 저장공간을 차지합니다.  
 
-다음과 같이 진행하시면 튜토리얼을 진행할 수 있습니다.
+다음과 같이 진행하시면 환경 세팅이 됩니다. (ubuntu 18.04LTS기준이며, centos는 거의 대동소이합니다, windows라면 간편하게 gui로 된 exe/msi인스톨러를 다운받아서 nvidia-driver, docker, nvidia-docker를 설치해 보세요)
+
+1. 그래픽카드 드라이버 설치  
+```shell
+#update apk
+$ sudo su
+$ apt update && apt upgrade --fix-missing -y
+##nvidia 그래픽카드 버젼확인 : tesla k80 같은게 나온다
+$ lspci | grep -i nvidia
+#os버젼 : x86_64 처럼 나오면 x64
+$ uname -m && cat /etc/*release
+#gcc 버젼 
+$ gcc --version
+#gcc가 없으면 설치
+$apt install -y gcc
+#For ubuntu lts
+#이하 nvidia quick install guide에 따름-----
+#The NVIDIA driver requires that the kernel headers and development packages for the running version of the kernel be installed at the time of the driver installation, as well whenever the driver is rebuilt. For example, if your system is running kernel version 4.4.0, the 4.4.0 kernel headers and development packages must also be installed.
+#The kernel headers and development packages for the currently running kernel can be installed with:
+$ sudo apt-get install linux-headers-$(uname -r)
+#Ensure packages on the CUDA network repository have priority over the Canonical repository.
+$ distribution=$(. /etc/os-release;echo $ID$VERSION_ID | sed -e 's/\.//g')
+$ wget https://developer.download.nvidia.com/compute/cuda/repos/$distribution/x86_64/cuda-$distribution.pin
+$ sudo mv cuda-$distribution.pin /etc/apt/preferences.d/cuda-repository-pin-600
+#Install the CUDA repository public GPG key. Note that on Ubuntu 16.04, replace https with http in the command below.
+$ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/$distribution/x86_64/7fa2af80.pub
+#Setup the CUDA network repository.
+$ echo "deb http://developer.download.nvidia.com/compute/cuda/repos/$distribution/x86_64 /" | sudo tee /etc/apt/sources.list.d/cuda.list
+#Update the APT repository cache and install the driver using the cuda-drivers meta-package. Use the --no-install-recommends option for a lean driver install without any dependencies on X packages. This is particularly useful for headless installations on cloud instances.
+$ sudo apt-get update
+$ sudo apt-get -y install cuda-drivers
+#Follow the post-installation steps in the CUDA Installation Guide for Linux to setup environment variables, NVIDIA persistence daemon (recommended) and to verify the successful installation of the driver.
+#--------nvidia quick install guide는 여기까지
+# 제대로 설치결과가 나오면 성공
+$ nvidia-smi
+# +-----------------------------------------------------------------------------+
+# | NVIDIA-SMI 450.36.06    Driver Version: 450.36.06    CUDA Version: 11.0     |
+# |-------------------------------+----------------------+----------------------+
+# | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+# | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+# |                               |                      |               MIG M. |
+# |===============================+======================+======================|
+# |   0  Tesla K80           Off  | 00000000:00:1E.0 Off |                    0 |
+# | N/A   33C    P0    75W / 149W |      0MiB / 11441MiB |     86%      Default |
+# |                               |                      |                  N/A |
+# +-------------------------------+----------------------+----------------------+
+#
+# +-----------------------------------------------------------------------------+
+# | Processes:                                                                  |
+# |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+# |        ID   ID                                                   Usage      |
+# |=============================================================================|
+# |  No running processes found                                                 |
+# +-----------------------------------------------------------------------------+
+```
+2. docker 설치
+```shell
+$ apt install -y docker.io
+```
+3. nvidia-docker 설치
+```shell
+#nvidia-smi 에 있는 Driver version에 따라 검증코드가 달라진다. 깔아야 할 nvidia-docker 도 다름.
+#최신이라면 최신으로 가도 되지만, nvidia-docker2=2.2.2 를 깔아야할수도 있음.
+$ sudo su
+$ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -
+$ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+$ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | tee /etc/apt/sources.list.d/nvidia-docker.list
+$ sudo apt-get update
+#설치
+$ apt-get -y install nvidia-docker2
+$ pkill -SIGHUP dockerd
+#검증. nvidia-smi 창이 뜨면 성공
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+```
+4. 이후 다음과 같이 진행하시면 튜토리얼을 진행할 수 있습니다.
 ```shell
 $ #배쉬셀 기준
 $ sudo su
@@ -58,11 +132,12 @@ $ git clone https://github.com/niahair/ganhackerton.git
 $ cd ganhackerton
 $ bash run.sh
 ```
-이후 크롬에서 해당 컴퓨터의 8888포트로 접속하면 jupyter notebook이 열립니다.
+5. 이후 크롬에서 해당 컴퓨터의 8888포트로 접속하면 jupyter notebook이 열립니다.
 (ex : http://127.0.0.1:8888 )  
 노트북의 main.ipynb는 튜토리얼입니다.  
 dataset_describe는 데이터 열어보는 부분입니다.  
 노트북에서 shell을 열어 접속하시면 폴더구조는 다음과 같습니다.  
+  
 /main : 이 git이 clone된 폴더  
 /main/dataset/ : 데이터셋이 있는 폴더  
 /main/notebooks/ : 노트북들 (/tf/notebooks와 동일한 폴더)  
