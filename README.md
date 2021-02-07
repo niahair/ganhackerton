@@ -150,11 +150,12 @@ dataset_describe는 데이터 열어보는 부분입니다.
 * `inference.py` 에서는 위와 같은 리스트를 바탕으로 dataset 경로에 있는 image 들을 불러와서 source image 를 target image 로 변환한 결과를 `test_image/` directory 에 저장해야합니다.
 주최측에서는 inference.py 를 실행시켜 test_image directory 에 변환된 이미지를 저장하고, 이를 바탕으로 FID score 를 측정할 예정입니다.
 * 아래는 inference.py 를 실행시킬 inference.sh 의 코드 예시입니다.
+
 ```shell
 #!/usr/bin/env bash
 python inference.py
 ```
-* source 와 target image file path 띄어쓰기로 구분이 되어있는 numpy list(inference_filepath.npy) 는 다음과 같습니다.
+* source image file path와 target image file path 가 들어있는 numpy list(inference_filepath.npy) 는 다음과 같습니다.
 ```
 [['dataset/partition1/AP054876-001.jpg', 'dataset/partition1/AP056333-001.jpg'],
  ['dataset/partition1/AP054876-003.jpg', 'dataset/partition1/AP056333-003.jpg'],
