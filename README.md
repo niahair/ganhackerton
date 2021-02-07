@@ -41,11 +41,13 @@ baseline model은 다음의 github를 참고해 주세요
 <a href="https://github.com/niahair/ganhackerton/blob/master/notebooks/main.ipynb">튜토리얼</a>은 ubuntu 18.04에서 실행해보았으나 dockerize되어있어 사양을 크게 타지 않습니다.  
 실행을 위해서는 다음의 프로그램이 필요합니다.  
 nvidia-docker2 runtime 으로 동작하므로 cuda-driver는 최신의 아무거나 깔면 적절합니다. (nvidia-docker2가 돌아갈 수 있는 정도의 버젼이긴 해야합니다.)  
-  
+
+```
 docker  
 nvidia-docker2  
 git  
 nvidia-driver    
+```
 
 또한 현재 보시는 git에 모든 dataset(약 25만장)이 함께 포함되어 있으므로 clone 시 약 <b>12Gbytes의 저장공간</b>을 차지합니다.  
 추가로 튜토리얼에 사용되는 <a href="https://hub.docker.com/r/yuryueng/hbaseline">yuryueng/hbaseline docker image</a>가 약 <b>8Gbytes</b>의 저장공간을 차지합니다.  
@@ -142,9 +144,35 @@ dataset_describe는 데이터 열어보는 부분입니다.
 /main/dataset/ : 데이터셋이 있는 폴더  
 /main/notebooks/ : 노트북들 (/tf/notebooks와 동일한 폴더)  
 
-### 4. Submission 방식과 평가 metric (210206 12:03 am 수정됨)
+### 4. Submission 방식과 평가 metric (210208 01:34 am 수정됨)
 > #### Submission 방식
-> * 소스 이미지와 타겟 이미지 경로를 입력하여 결과 이미지를 생성할 수 있는 도커 허브의 url을 제출해주세요. (자세한 사항은 추후 안내 예정)
+> * 소스 이미지와 타겟 이미지 경로를 입력하여 결과 이미지를 생성할 수 있는 inference.py 파일을 함께 도커이미지에 함께 포함시켜 build를하고 해당 이미지를 도커 허브에 올린 url을 제출해주세요. 
+
+- 아래는 inference.py 를 실행시킬 inference.sh 의 코드 예시입니다.
+```shell
+#!/usr/bin/env bash
+python inference.py
+```
+
+- source 와 target image file path 띄어쓰기로 구분이 되어있는 numpy list(inference_filepath.npy) 는 다음과 같습니다.
+```
+[['dataset/partition1/AP054876-001.jpg', 'dataset/partition1/AP056333-001.jpg'],
+ ['dataset/partition1/AP054876-003.jpg', 'dataset/partition1/AP056333-003.jpg'],
+ ['dataset/partition1/AP054876-005.jpg', 'dataset/partition1/AP056333-005.jpg'],
+  ...
+ ['dataset/partition1/AP054876-060.jpg', 'dataset/partition1/AP056333-060.jpg']]
+```
+
+`inference.py` 에서는 위와 같은 리스트를 바탕으로 dataset 경로에 있는 image 들을 불러와서 source image 를 target image 로 변환한 결과를 `test_image/` directory 에 저장해야합니다.
+주최측에서는 inference.py 를 실행시켜 test_image directory 에 변환된 이미지를 저장하고, 이를 바탕으로 FID score 를 측정할 예정입니다.
+
+### 주의사항 
+> 현재 제공된 inference_filepath.npy 는 실제 테스트 이미지 경로가 아닌 임의의 경로로 구성되어 있습니다.
+> 주최측에서 inference.py 를 돌려서 `test_image/` 에 변환된 이미지들이 생성되지 않으면 **시상에서 제외됩니다.**
+> 생성할 이미지의 파일형식을 **.png** 로 맞춰주세요. (ex, 1.png, 2.png, etc..)
+> 생성할 이미지의 파일명은 임의로 지정하셔도 무방합니다. (ex, 1.png, 001.png, t1.png)
+> 생성할 이미지의 크기는 **512 x 512** 로 맞춰주세요.
+
 > * FID Score는 매일 자정에 측정하여 이 github 대문에 업데이트 하게 됩니다.
 > * 제출은 email 형태로 받게 됩니다. (제출처 : niahairdata@gmail.com)
 > * 반드시 model 의 가중치와 sourcecode 를 함께 전송해주세요.
