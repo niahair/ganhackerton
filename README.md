@@ -152,7 +152,6 @@ dataset_describe는 데이터 열어보는 부분입니다.
 * 아래는 inference.py 를 실행시킬 inference.sh 의 코드 예시입니다.
 
 ```shell
-#!/usr/bin/env bash
 python inference.py
 ```
 * source image file path와 target image file path 가 들어있는 numpy list(inference_filepath.npy) 는 다음과 같습니다.
