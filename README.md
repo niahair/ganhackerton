@@ -167,7 +167,7 @@ python inference.py
 * 현재 제공된 inference_filepath.npy 는 실제 테스트 이미지 경로가 아닌 임의의 경로로 구성되어 있습니다.
 * 주최측에서 inference.py 를 돌려서 `test_image/` 에 2,000 장의 이미지들이 생성되지 않으면 **시상에서 제외됩니다.**
 * 생성할 이미지의 파일형식을 **.png** 로 맞춰주세요. (ex, 1.png, 2.png, etc..)
-* 생성할 이미지의 파일명은 임의로 지정하셔도 무방합니다. (ex, 1.png, 001.png, t1.png)
+* 생성할 이미지의 파일명은 임의로 지정하셔도 무방합니다. (ex, 1.png, 001.png, t1.png, etc..)
 * 생성할 이미지의 크기는 **512 x 512** 로 맞춰주세요.
 * FID Score는 매일 자정에 측정하여 이 github 대문에 업데이트 하게 됩니다.
 * 제출은 email 형태로 받게 됩니다. (제출처 : niahairdata@gmail.com)
