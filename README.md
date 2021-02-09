@@ -156,11 +156,11 @@ python inference.py
 ```
 * source image file path와 target image file path 가 들어있는 numpy list(inference_filepath.npy) 는 다음과 같습니다.
 ```
-[['dataset/partition1/AP054876-001.jpg', 'dataset/partition1/AP056333-001.jpg'],
- ['dataset/partition1/AP054876-003.jpg', 'dataset/partition1/AP056333-003.jpg'],
- ['dataset/partition1/AP054876-005.jpg', 'dataset/partition1/AP056333-005.jpg'],
+[['dataset/partition1/AP054876-001.jpg' 'dataset/partition1/AP056333-001.jpg']
+ ['dataset/partition1/AP054876-003.jpg' 'dataset/partition1/AP056333-003.jpg']
+ ['dataset/partition1/AP054876-005.jpg' 'dataset/partition1/AP056333-005.jpg']
   ...
- ['dataset/partition1/AP054876-060.jpg', 'dataset/partition1/AP056333-060.jpg']]
+ ['dataset/partition1/AP054876-060.jpg' 'dataset/partition1/AP056333-060.jpg']]
 ```
 
 #### 주의사항 
