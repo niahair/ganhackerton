@@ -24,7 +24,7 @@ baseline model은 다음의 github를 참고해 주세요
 <a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a>  
   
 자세한 정보는 해당 모델의 github 페이지에 있으나, 대략 tesla v100 1대 환경에서 3일정도 baseline model을 훈련시켰으니 도움이 많이 될 것이라 생각됩니다.  
-해당 모델의 FID score는 <font color=red>17.24점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
+해당 모델의 FID score는 <font color=red>14.38점</font> 정도입니다. 이번 대회를 통해 score를 많이 낮추어, 높은 점수를 받을 수 있도록 하면 좋을 것 같습니다.  
   
 해당 모델에 사용된 데이터와 동일한 데이터가 모두 이 github의 내부 링크에 공개되어 있습니다.  
 <a href="https://github.com/niahair/ganhackerton/tree/master/dataset">https://github.com/niahair/ganhackerton/tree/master/dataset</a>에 약 <b>25만장의 이미지와 레이블</b>이 있습니다. 이 데이터셋으로 대회를 치르게 됩니다.
@@ -222,7 +222,7 @@ python inference.py
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr><tr>
-<td>1</td><td>17.24</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
+<td>1</td><td>14.38</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
 </tr>
 </table>
 </pre>
