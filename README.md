@@ -180,7 +180,7 @@ python inference.py
 
 ### 5. 일정과 기간
 대회 일정은 2021.02.02 10시 부터 시작 합니다. 이시간 이후 메일 접수를 집계에 반영 합니다.  
-제출 마감은 2021.02.14 23시 59분 까지 입니다.  
+제출 마감은 2021.02.17 23시 59분 까지 입니다.  
 
 그 전에도 dataset이나 baseline model을 살펴보는 것은 자유롭습니다.
 
@@ -222,7 +222,9 @@ python inference.py
 <tr>
 <td>순위</td><td>FID score</td><td>모델명</td><td>모델 github 또는 paper url</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr><tr>
-<td>1</td><td>14.38</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주체측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
+<td>1</td><td>14.38</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>주최측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
+<td>2</td><td>14.38</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 개인 </td>
+<td>3</td><td>14.38</td><td>KbeautyBaseline</td><td><a href="https://github.com/KbeautyHair/KbeautyBaseline">https://github.com/KbeautyHair/KbeautyBaseline</a></td><td>김정운</td><td>2021.2.12 12:13:40</td><td>개인</td>  
 </tr>
 </table>
 </pre>
