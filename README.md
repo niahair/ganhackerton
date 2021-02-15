@@ -226,7 +226,9 @@ python inference.py
 </tr><tr>
 <td>2</td><td>14.38</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 개인 </td>
 </tr><tr>
-<td>3</td><td>14.38</td><td>ev******15</td><td>김정운</td><td>2021.2.12 12:13:40</td><td>개인</td>  
+<td>3</td><td>14.38</td><td>ev******15</td><td>김정운</td><td>2021.2.12 12:13:40</td><td>개인</td>
+</tr><tr>
+<td>4</td><td>14.38</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
 </tr>
 </table>
 </pre>
