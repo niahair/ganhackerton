@@ -236,6 +236,9 @@ python inference.py
 </tr><tr>
 <td>6</td><td>null</td><td>ru******96</td><td>이정희</td><td>2020.2.15 20:33:11</td><td> 단체 송득선 </td>
 </tr>
+</tr><tr>
+<td>7</td><td>null</td><td>si****ne</td><td>김인학</td><td>2020.2.16 22:10:00</td><td> 개인 </td>
+</tr>
 
 </table>
 </pre>
