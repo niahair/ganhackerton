@@ -228,8 +228,15 @@ python inference.py
 </tr><tr>
 <td>3</td><td>14.38</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
 </tr><tr>
-<td>4</td><td>null</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
+<td>4</td><td>14.38</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
 </tr>
+</tr><tr>
+<td>5</td><td>null</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
+</tr>
+</tr><tr>
+<td>6</td><td>null</td><td>ru******96</td><td>이정희</td><td>2020.2.15 20:33:11</td><td> 단체 송득선 </td>
+</tr>
+
 </table>
 </pre>
 
