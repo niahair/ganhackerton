@@ -239,6 +239,19 @@ python inference.py
 </tr><tr>
 <td>7</td><td>null</td><td>si****ne</td><td>김인학</td><td>2020.2.16 22:10:00</td><td> 개인 </td>
 </tr>
+</tr><tr>
+<td>8</td><td>null</td><td>ev******15</td><td>김정운</td><td>2020.2.16 22:12:10</td><td> 개인 </td>
+</tr>
+</tr><tr>
+<td>9</td><td>null</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
+</tr>
+</tr><tr>
+<td>10</td><td>null</td><td>br*******de</td><td>최규현</td><td>2020.2.16 22:18:20</td><td> 개인 </td>
+</tr>
+</tr><tr>
+<td>11</td><td>null</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
+</tr>
+
 
 </table>
 </pre>
