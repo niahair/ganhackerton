@@ -250,7 +250,7 @@ python inference.py
 </tr><tr>
 <td>10</td><td>null</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
 </tr>
-<td>11</td><td>null</td><td>ru******96</td><td>이정희</td><td>2020.2.15 20:33:11</td><td> 단체 송득선 </td>
+<td>11</td><td>null</td><td>ti******al</td><td>이현찬</td><td>2020.2.17 01:43:23</td><td> 개인 </td>
 </tr>
 </tr><tr>
 
