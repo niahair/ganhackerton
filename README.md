@@ -239,18 +239,18 @@ python inference.py
 </tr><tr>
 <td>6</td><td>16.31</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
 </tr><tr>  
-<td>7</td><td>null</td><td>ka*****ca</td><td>김영훈</td><td>2020.2.17 12:10:40</td><td> 개인 </td>
+<td>7</td><td>16.78</td><td>ka*****ca</td><td>김영훈</td><td>2020.2.17 12:10:40</td><td> 개인 </td>
 </tr>
 </tr><tr>
-<td>8</td><td>null</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
+<td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
 </tr>
 </tr><tr>
-<td>9</td><td>null</td><td>br*******de</td><td>최규현</td><td>2020.2.16 22:18:20</td><td> 개인 </td>
+<td>9</td><td>19.56</td><td>br*******de</td><td>최규현</td><td>2020.2.16 22:18:20</td><td> 개인 </td>
 </tr>
 </tr><tr>
-<td>10</td><td>null</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
+<td>10</td><td>19.77</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
 </tr>
-<td>11</td><td>null</td><td>ti******al</td><td>이현찬</td><td>2020.2.17 01:43:23</td><td> 개인 </td>
+<td>11</td><td>18.77</td><td>ti******al</td><td>이현찬</td><td>2020.2.17 01:43:23</td><td> 개인 </td>
 </tr>
 </tr><tr>
 
