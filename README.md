@@ -223,22 +223,22 @@ python inference.py
 <td>순위</td><td>FID score</td><td>발신</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr>
 <tr>
-<td>1</td><td>14.37</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
-</tr><tr>
-<td>2</td><td>14.38</td><td>ev******15</td><td>김정운</td><td>2021.2.12 12:13:40</td><td>개인</td>
+<td>1</td><td>14.36</td><td>ev******15</td><td>김정운</td><td>2021.2.19 23:45:40</td><td>개인</td>
 </tr>
 <tr>
-<td>3</td><td>14.38</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
-</tr>
+<td>2</td><td>14.37</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
 </tr><tr>
-<td>4</td><td>14.38</td><td>si****ne</td><td>김인학</td><td>2020.2.16 22:10:00</td><td> 개인 </td>
-</tr>
-</tr><tr>
-<td>5</td><td>14.38</td><td>KbeautyBaseline</td><td>주최측</td><td>2021.1.27 12:13:26</td><td>baseline 모델입니다. 이보다는 낮은 게 좋겠죠!</td>
-</tr>
-</tr><tr>
-<td>6</td><td>16.31</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
+<td>3</td><td>16.31</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
 </tr><tr>  
+<td>4</td><td>16.39</td><td>si****ne</td><td>김인학</td><td>2020.2.19 22:10:00</td><td> 개인 </td>
+</tr>
+</tr><tr>
+<td>5</td><td>16.42</td><td>wk****ne</td><td>양준호</td><td>2020.2.16 22:50:32</td><td> 개인 </td>
+</tr>
+</tr><tr>
+<td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
+</tr>
+</tr><tr>
 <td>7</td><td>16.78</td><td>ka*****ca</td><td>김영훈</td><td>2020.2.17 12:10:40</td><td> 개인 </td>
 </tr>
 </tr><tr>
@@ -250,9 +250,6 @@ python inference.py
 </tr><tr>
 <td>10</td><td>19.77</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
 </tr>
-<td>11</td><td>18.77</td><td>ti******al</td><td>이현찬</td><td>2020.2.17 01:43:23</td><td> 개인 </td>
-</tr>
-</tr><tr>
 
 
 </table>
