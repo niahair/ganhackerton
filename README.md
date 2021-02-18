@@ -245,7 +245,7 @@ python inference.py
 <td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
 </tr>
 </tr><tr>
-<td>9</td><td>19.56</td><td>br*******de</td><td>최규현</td><td>2020.2.16 22:18:20</td><td> 개인 </td>
+<td>9</td><td>18.44</td><td>br*******de</td><td>최규현</td><td>2020.2.18 19:28:50</td><td> 개인 </td>
 </tr>
 </tr><tr>
 <td>10</td><td>19.77</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
