@@ -205,18 +205,19 @@ python inference.py
 
 
 
-**최종순위**
+**최종순위는 22일 자정에 발표됩니다**
 
 <table>
 <tr>
 <td>순위</td><td>FID score</td><td>발신</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr>
 <tr>
-<td>1</td><td>14.35</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
+<td>1</td><td>14.34</td><td>md*****og</td><td>심재환</td><td>2021.2.12 13:03:02</td><td>개인</td>  
 </tr>
 <tr>
-<td>2</td><td>14.37</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
-</tr><tr>
+<td>2</td><td>14.35</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
+</tr>
+<tr>
 <td>3</td><td>16.31</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
 </tr><tr>  
 <td>4</td><td>16.39</td><td>si****ne</td><td>김인학</td><td>2020.2.19 22:10:00</td><td> 개인 </td>
@@ -225,7 +226,7 @@ python inference.py
 <td>5</td><td>16.42</td><td>wk****ne</td><td>양준호</td><td>2020.2.16 22:50:32</td><td> 개인 </td>
 </tr>
 </tr><tr>
-<td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
+<td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 개인 </td>
 </tr>
 </tr><tr>
 <td>7</td><td>16.48</td><td>ge*****27</td><td>이도영</td><td>2020.2.19 22:18:03</td><td> 팀 유부강 </td>
