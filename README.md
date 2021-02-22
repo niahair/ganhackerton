@@ -201,7 +201,7 @@ python inference.py
 </font>
 
 ### 7. Leaderboard
-리더보드 업데이트 시각은 다음과 같습니다.  
+코드평가 완료
 
 <table>
 <tr>
@@ -213,10 +213,11 @@ python inference.py
 </tr><tr>
 <td>2월 9일</td><td>0시</td>
 </tr><tr>
-<td>2월 15일</td><td>0시</td>
+<td>2월 21일</td><td>23시</td>
 </tr>
 </table>
 
+**최종순위**
 
 <table>
 <tr>
@@ -239,7 +240,7 @@ python inference.py
 <td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
 </tr>
 </tr><tr>
-<td>7</td><td>16.78</td><td>ka*****ca</td><td>김영훈</td><td>2020.2.17 12:10:40</td><td> 개인 </td>
+<td>7</td><td>16.48</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 유부강 </td>
 </tr>
 </tr><tr>
 <td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
