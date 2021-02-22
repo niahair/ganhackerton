@@ -203,19 +203,7 @@ python inference.py
 ### 7. Leaderboard
 코드평가 완료
 
-<table>
-<tr>
-<td>일자</td><td>시간</td>
-</tr><tr>
-<td>2월 6일</td><td>0시</td>
-</tr><tr>
-<td>2월 8일</td><td>0시</td>
-</tr><tr>
-<td>2월 9일</td><td>0시</td>
-</tr><tr>
-<td>2월 21일</td><td>23시</td>
-</tr>
-</table>
+
 
 **최종순위**
 
@@ -224,7 +212,7 @@ python inference.py
 <td>순위</td><td>FID score</td><td>발신</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr>
 <tr>
-<td>1</td><td>14.36</td><td>ev******15</td><td>김정운</td><td>2021.2.19 23:45:40</td><td>개인</td>
+<td>1</td><td>16.32</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
 </tr>
 <tr>
 <td>2</td><td>14.37</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
@@ -240,10 +228,10 @@ python inference.py
 <td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 단체 송득선 </td>
 </tr>
 </tr><tr>
-<td>7</td><td>16.48</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 유부강 </td>
+<td>7</td><td>16.48</td><td>ge*****27</td><td>이도영</td><td>2020.2.19 22:18:03</td><td> 팀 유부강 </td>
 </tr>
 </tr><tr>
-<td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 미기입 미기입 </td>
+<td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 소정 철우 </td>
 </tr>
 </tr><tr>
 <td>9</td><td>18.44</td><td>br*******de</td><td>최규현</td><td>2020.2.18 19:28:50</td><td> 개인 </td>
