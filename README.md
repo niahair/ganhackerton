@@ -212,7 +212,7 @@ python inference.py
 <td>순위</td><td>FID score</td><td>발신</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
 </tr>
 <tr>
-<td>1</td><td>16.32</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
+<td>1</td><td>14.35</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
 </tr>
 <tr>
 <td>2</td><td>14.37</td><td>md*****og</td><td>박태성</td><td>2021.2.12 13:03:02</td><td>개인</td>  
