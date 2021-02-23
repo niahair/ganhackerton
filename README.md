@@ -205,41 +205,21 @@ python inference.py
 
 
 
-**최종순위는 22일 자정에 발표됩니다**
+**최종순위**
 
 <table>
 <tr>
-<td>순위</td><td>FID score</td><td>발신</td><td>팀 이름</td><td>제출 시간</td><td>코멘트</td>
-</tr>
 
-<tr>
-<td>1</td><td>14.35</td><td>ze****d7</td><td>이선규</td><td>2020.2.19 23:38:23</td><td> 팀 김정운 </td>
-</tr>
-<tr>
-<td>2</td><td>14.36</td><td>md*****og</td><td>심재환</td><td>2021.2.20 03:11:02</td><td>개인</td>  
-</tr>
-<tr>
-<td>3</td><td>16.31</td><td>ba***sm</td><td>홍승백</td><td>2021.2.15 19:14:08</td><td> 단체 홍진성 </td>
-</tr><tr>  
-<td>4</td><td>16.39</td><td>si****ne</td><td>김인학</td><td>2020.2.19 22:10:00</td><td> 개인 </td>
-</tr>
-</tr><tr>
-<td>5</td><td>16.42</td><td>wk****ne</td><td>양준호</td><td>2020.2.16 22:50:32</td><td> 개인 </td>
-</tr>
-</tr><tr>
-<td>6</td><td>16.48</td><td>ru******96</td><td>이정희</td><td>2021.2.11 07:23:08</td><td> 개인 </td>
-</tr>
-</tr><tr>
-<td>7</td><td>16.48</td><td>ge*****27</td><td>이도영</td><td>2020.2.19 22:18:03</td><td> 팀 유부강 </td>
-</tr>
-</tr><tr>
-<td>8</td><td>17.2</td><td>sa***********93</td><td>배민아</td><td>2020.2.16 22:15:02</td><td> 팀 소정 철우 </td>
-</tr>
-</tr><tr>
-<td>9</td><td>18.44</td><td>br*******de</td><td>최규현</td><td>2020.2.18 19:28:50</td><td> 개인 </td>
-</tr>
-</tr><tr>
-<td>10</td><td>19.77</td><td>kr*****90</td><td>소진</td><td>2020.2.16 22:24:58</td><td> 개인 </td>
+<td>1위</td><td>이선규</td><td>개인</td>
+<td>2위</td><td>심재환</td><td>개인</td>
+<td>3위</td><td>권혁찬,김태우, 이진희</td><td>단체</td>
+<td>4위</td><td>양준호, 정채연</td><td>단체</td>
+<td>5위</td><td>홍진성,홍승백</td><td>단체</td>
+<td>6위</td>오연중</td><td>개인</td>
+<td>7위</td>김인학</td><td>개인</td>
+<td>8위</td>배민아, 이호정, 박소민</td><td>단체</td>
+<td>9위</td>이정희</td><td>개인</td>
+<td>10위</td>김인학</td><td>개인</td>
 </tr>
 
 
