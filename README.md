@@ -211,14 +211,23 @@ python inference.py
 <tr>
 
 <td>1위</td><td>이선규</td><td>개인</td>
+</tr><tr>
 <td>2위</td><td>심재환</td><td>개인</td>
+</tr><tr>
 <td>3위</td><td>권혁찬,김태우, 이진희</td><td>단체</td>
+  </tr><tr>
 <td>4위</td><td>양준호, 정채연</td><td>단체</td>
+</tr><tr>
 <td>5위</td><td>홍진성,홍승백</td><td>단체</td>
+  </tr><tr>
 <td>6위</td>오연중</td><td>개인</td>
+</tr><tr>
 <td>7위</td>김인학</td><td>개인</td>
+</tr><tr>
 <td>8위</td>배민아, 이호정, 박소민</td><td>단체</td>
+</tr><tr>
 <td>9위</td>이정희</td><td>개인</td>
+</tr><tr>
 <td>10위</td>김인학</td><td>개인</td>
 </tr>
 
