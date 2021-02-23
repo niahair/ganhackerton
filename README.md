@@ -220,15 +220,15 @@ python inference.py
 </tr><tr>
 <td>5위</td><td>홍진성,홍승백</td><td>단체</td>
   </tr><tr>
-<td>6위</td>오연중</td><td>개인</td>
+<td>6위</td><td>오연중</td><td>개인</td>
 </tr><tr>
-<td>7위</td>김인학</td><td>개인</td>
+<td>7위</td><td>김인학</td><td>개인</td>
 </tr><tr>
-<td>8위</td>배민아, 이호정, 박소민</td><td>단체</td>
+<td>8위</td><td>배민아, 이호정, 박소민</td><td>단체</td>
 </tr><tr>
-<td>9위</td>이정희</td><td>개인</td>
+<td>9위</td><td>이정희</td><td>개인</td>
 </tr><tr>
-<td>10위</td>김인학</td><td>개인</td>
+<td>10위</td><td>김인학</td><td>개인</td>
 </tr>
 
 
