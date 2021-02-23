@@ -228,7 +228,7 @@ python inference.py
 </tr><tr>
 <td>9위</td><td>이정희</td><td>개인</td>
 </tr><tr>
-<td>10위</td><td>김인학</td><td>개인</td>
+<td>10위</td><td>최규현</td><td>개인</td>
 </tr>
 
 
